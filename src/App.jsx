@@ -1,5 +1,7 @@
 import './App.css'
+import LineChart from './components/LineChart/LineChart'
 import Navbar from './components/Navbar/Navbar'
+import Priceoptions from './components/Priceoptions/Priceoptions'
 // import Daisynav from './components/DaisyNav/Daisynav'
 
 function App() {
@@ -7,8 +9,8 @@ function App() {
     <>
     {/* <Daisynav></Daisynav> */}
     <Navbar></Navbar>
-      <h1>Vite + React</h1>
-      
+      <Priceoptions></Priceoptions>
+      <LineChart></LineChart>
     </>
   )
 }
